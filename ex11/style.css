@@ -1,0 +1,7 @@
+@charset 'UFT-8';
+
+body{background-color: antiquewhite; font: normal 14px arial, sans serif, helvetica;}
+#principal{ color: antiquewhite; background-color: aqua;}
+.basico{color: lightskyblue;}
+.intermediario{color: darkolivegreen;}
+.avancado{color: brown;}

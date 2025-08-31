@@ -1,0 +1,12 @@
+@charset "UTF-8"; /*criamos esse, para ter não ter problema de aceitabilidade com simbolos etc...*/
+*{font-family: Arial, Helvetica, sans-serif;   /*isso bota como padrão de todo arquivo*/}
+body{ background-image: linear-gradient(to right, #DAFDBA, #012030);}
+main{ background-color: #fff;
+     width: 600px; /*o tamanho da caixa brancaonde vai ficar o texto*/
+     padding: 10px; /*margem lateral para o texto ão ficar apertado*/
+     margin: auto; /*centralização do conteúdo na pagina*/
+    border-radius: 10px; /*arredondamento da ponta da caixa branca*/
+    box-shadow: 1px 1Px 20px   #012030; /*sombras da caixa branca sendo, >, ↓, espalhamento e cor. SEM VÍRGULA*/;
+}
+h1{ color:  #012030 ;}
+p{text-align: justify;}

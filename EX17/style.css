@@ -1,0 +1,16 @@
+@charset "utf-8";
+@font-face { /*aquié pra chamar/trazer a fonte, temque ser no inicio*/
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype); /*chamando*/
+    font-weight: bolder;
+}
+:root{
+    --cor0: rgb(0, 73, 0);
+    --cor1: rgb(0, 161, 0);
+    --cor2: rgb(172, 248, 172);
+
+    --fonte-padrao: arial, helvetica, sans serif;
+    --fonte-destaque: 'android' ;} /*usando variavel para fonte importada*/
+
+h1{background-color: var(--cor1); font-family: var(--fonte-destaque);} /*lembre: font-FAMILY*/
+p{font-family: var(--fonte-padrao);}
