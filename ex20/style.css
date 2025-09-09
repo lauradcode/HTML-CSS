@@ -1,26 +1,40 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nata+Sans:wght@100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+  --fonte-principal: 'Libertinus Serif', serif;
+  --fonte-secundaria: 'Nata Sans', sans-serif;
+  --fonte-destaque: 'Passion One', system-ui;}
 * {
     margin: 0%;
     padding: 0%;}
 html, body { 
     background-color: #c88b3a;
-    padding: 0px;}
+    padding: 0px;
+    font-family: var(--fonte-secundaria);}
 header {
-    background-color: wheat;}
+    background-color: #CADFF2;
+    background-image: url(img/hum.jpg);
+    background-attachment: fixed;}
 header > h1 { /*signf que o h1 q está dentro desse q eu qr editar*/
+    font-family: var(--fonte-principal);
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 30px;}
+    padding-top: 30px;
+    font-size: 8vh;}
 header > p { 
     text-align: center;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+    font-size: 5vh;}
 section{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:large;
+    font-size:3vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    line-height: 2em;}
+    line-height: 2.5em;}
+/*section.img > p {
+    background-color: rgba(175, 213, 246, 0.269);
+    width: 300px;
+    padding: 10px;}  ISSO É SÓ SE EU QUISESSE DESTACAR O TEXTO*/
 .normal{
     background-color: #c88b3a;} 
 .img {
@@ -35,7 +49,7 @@ footer{
     background-position: bottom bottom;
     background-attachment: fixed;
     padding: 30px;
-    padding-bottom: 10px;}
+    padding-bottom: 35px;}
     
 a {
     color: black;
