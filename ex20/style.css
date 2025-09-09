@@ -5,8 +5,7 @@
   --fonte-principal: 'Libertinus Serif', serif;
   --fonte-secundaria: 'Nata Sans', sans-serif;
   --fonte-destaque: 'Passion One', system-ui;}
-* {
-    margin: 0%;
+*  {margin: 0%;
     padding: 0%;}
 html, body { 
     background-color: #c88b3a;
