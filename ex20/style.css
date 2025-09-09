@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+    margin: 0%;
+    padding: 0%;}
+html, body { 
+    background-color: #c88b3a;
+    padding: 0px;}
+header {
+    background-color: wheat;}
+header > h1 { /*signf que o h1 q está dentro desse q eu qr editar*/
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;}
+header > p { 
+    text-align: center;
+    padding-bottom: 30px;}
+section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;}
+.normal{
+    background-color: #c88b3a;} 
+.img {
+    background-attachment: fixed;
+    background-color:wheat;}
+#i1{    
+    background-image: url(img/hum.jpg);}
+#i2{
+    background-image: url(img/titas-hum.jpg);}
+footer{
+    background-image: url(img/titas-hum.jpg);
+    background-position: bottom bottom;
+    background-attachment: fixed;
+    padding: 30px;
+    padding-bottom: 10px;}
+    
+a {
+    color: black;
+    font-weight: bolder;}
+a:hover {
+    color: red;}
