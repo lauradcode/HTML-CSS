@@ -8,18 +8,24 @@
 <body>
     <h1>Dados</h1>
         <form >
-            <p>
-                <label for="iemail">E-mail</label>
-                <input type="email" name="e-mail" id="iemail" placeholder="Digite seu e-mail" autocomplete="on" required>
-            </p>
-            <p>
-                   <label for="ifone">telefone</label>
-                    <input type="tel" name="telefone" id="ifone" pattern="^\d{8,9}$" required>
-            </p>
-             <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-             </p>
+            <fieldset>
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" placeholder="nome completo" required>
+                </p>
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="e-mail" id="iemail" placeholder="Digite seu e-mail" autocomplete="on" required>
+                </p>
+                <p>
+                       <label for="ifone">telefone</label>
+                        <input type="tel" name="telefone" id="ifone" pattern="^\d{8,9}$" placeholder="xxxxx-xxxx" required>
+                </p>
+                 <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                 </p>
+            </fieldset>
         </form>
 
 </body>
