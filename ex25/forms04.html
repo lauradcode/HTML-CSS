@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+                <label for="ifem"><input type="radio" name="sexo" id="ifem" value="F">Feminino</label> <br>
+                <label for="imasc"><input type="radio" name="sexo" id="imasc" value="M">Masculino</label>
+            <!-- Colocando o mesmo nome para poder marcar um ou outro -->
+        </fieldset>
+        <fieldset>
+            <legend> Esportes favoritos</legend>
+                <label for="irun"><input type="checkbox" name="corr" id="irun"> Corrida <br></label>
+                <label for="iacad"><input type="checkbox" name="acad" id="iacad"> Academia <br></label>
+                <label for="ibike"><input type="checkbox" name="bike" id="ibike"> Ciclismo</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
