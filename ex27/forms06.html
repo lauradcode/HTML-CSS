@@ -10,12 +10,20 @@
     <form action="cadastro.php">
 
         <p>
-            <label for="ifruit"> lista: </label>
+            <label for="ifruit"> lista de frutas: </label>
             <select name="fruta" id="ifruit">
-                <option value="maça"> maça </option>
-                <option value="banana"> banana </option>
-                <option value="uva"> uva </option>
-                <option value="melancia"> melancia </option>
+                <option value="" selected> -- escolha --</option>
+                <optgroup label="mais baixo em calorias">
+                    <option value="melao"> melão </option>
+                    <option value="melancia"> Melancia </option>
+                    <option value="kiwi"> Kiwi </option>
+                </optgroup>
+                <optgroup label="Mais alto em calorias">
+                    <option value="banana">Banana</option>
+                    <option value="manga">Manga</option>
+                    <option value="Abacate">Abacate</option>
+
+                </optgroup>
             </select>
         </p>
         <p>
