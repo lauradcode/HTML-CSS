@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/*ESTILO PARA IMPRESSORAS*/
+*{margin: 10px;
+padding: 10px;}
+body{font-family: sans-serif;}
+h1{color: brown;}
