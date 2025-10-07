@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" >
+        
+        <P>
+            <label for="inum"></label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="0" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">0</output>
+        </P>
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </P>
+    </form>
+<!--OLHAR NO NOTION NA PARTE 'MODULO 4 - OUTPUT'-->
+</body>
+</html>
