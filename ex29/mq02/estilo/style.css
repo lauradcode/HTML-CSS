@@ -1,2 +1,16 @@
 @charset "UTF-8";
 /*CONFIGURAÇÕES GERAIS*/
+*{
+margin: 0px;
+padding:  0px;
+font-family: monospace;}
+
+html, bpdy{ 
+width: 100vw;
+height: 100vh;
+background-color: rgb(31, 20, 182);
+background-size: contain;
+background-repeat: no-repeat;}
+
+h1{color: aliceblue;
+padding: 10px;}
