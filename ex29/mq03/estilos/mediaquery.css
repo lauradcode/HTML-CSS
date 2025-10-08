@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+/* Mobile first*/
+*{
+font-family: 'Courier New', Courier, monospace;
+margin: 0px;
+padding: 0%;}
+
+html{
+height: 100vh;}
+
+body{ 
+background-image: url(../img/back-phone.jpg);
+background-size: cover;
+background-position: center center;}
+
+main{
+background-color: rgba(220, 169, 148, 0.721);
+width: 80vw;
+margin: auto;
+margin-top: 20px;
+padding: 10px;
+border-radius: 10px;}
+
+h1{
+text-align: center;
+color: aliceblue;
+padding: 20px;
+font-size: 2em;}
+
+img{display: block;
+margin: auto;}
+
+#phone{display: block;}
+#tablet{display: none;}
+#pc{display: none;}
+#print{display: none;}
+#tv{display: none;}
