@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
 <body>
     <header>       
         <h1>Meu site</h1> 
-        <nav>
+        <button id="menu" class="material-symbols-outlined" >menu</button>
+        <nav id="itens">
             <ul>
                 <li><a href="#">opção 1 </a></li>
                 <li><a href="#">opção 2 </a></li>
                 <li><a href="#">opção 3 </a></li>
                 <li><a href="#">opção 4 </a></li>
                 <li><a href="#">opção 5 </a></li>
+                
             </ul>
         </nav>
     </header>
@@ -28,5 +31,18 @@
             </p>
         </article>
     </main>
+    <script>
+        // Alterna visibilidade do menu de itens
+        const btnMenu = document.getElementById('menu');
+        const navItens = document.getElementById('itens');
+
+        // estado inicial aria
+        btnMenu.setAttribute('aria-expanded', 'false');
+
+        btnMenu.addEventListener('click', () => {
+            const isOpen = navItens.classList.toggle('open');
+            btnMenu.setAttribute('aria-expanded', String(isOpen));
+        });
+    </script>
 </body>
 </html>
